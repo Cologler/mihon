@@ -158,6 +158,8 @@ dependencies {
     implementation(compose.ui.tooling.preview)
     implementation(compose.ui.util)
     implementation(compose.accompanist.systemuicontroller)
+    
+    implementation(androidx.interpolator)
 
     implementation(androidx.paging.runtime)
     implementation(androidx.paging.compose)
@@ -203,7 +205,6 @@ dependencies {
     // Disk
     implementation(libs.disklrucache)
     implementation(libs.unifile)
-    implementation(libs.bundles.archive)
 
     // Preferences
     implementation(libs.preferencektx)
